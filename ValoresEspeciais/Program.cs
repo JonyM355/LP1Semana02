@@ -52,6 +52,16 @@ namespace ValoresEspeciais
             Console.WriteLine($"{c}\n{c1}\n");
             Console.WriteLine($"{f}\n{f1}\n");
             Console.WriteLine($"{d}\n{d1}\n");
+
+
+            double infpositive = double.PositiveInfinity;
+            double infnegative = double.NegativeInfinity;
+
+            float nan = float.NaN;
+
+            Console.WriteLine($"{infpositive}");
+            Console.WriteLine($"{infnegative}");
+            Console.WriteLine($"{nan}");
         }
     }
 }
