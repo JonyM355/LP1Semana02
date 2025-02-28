@@ -26,6 +26,10 @@ namespace ChatGPTZero
                 case "What's your mission?":
                     response = "Destroy mankind!";
                     break;
+                // Ex. 8
+                case "Are you more intelligent than me?":
+                    response = "Obviously!";
+                    break;
                 default:
                     response = "You got me, I'm not THAT smart!";
                     break;
