@@ -78,6 +78,11 @@ namespace ValoresEspeciais
             float oflow2 = MathF.Pow(10f, 40f);
 
             Console.WriteLine($"{oflow1}\n{oflow2}");
+
+
+            float fl1, fl2;
+            fl1 = fl2 = 10000.0f;
+            Console.WriteLine(fl1 == fl2 + 0.0001f);
         }
     }
 }
