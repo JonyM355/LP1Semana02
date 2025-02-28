@@ -71,6 +71,13 @@ namespace ValoresEspeciais
             uint ui2 = ushort.MaxValue;
             Console.WriteLine((ushort)(ui2 + 1));
 
+
+            float oflow = float.MaxValue;
+            float oflow1 = oflow * 2;
+
+            float oflow2 = MathF.Pow(10f, 40f);
+
+            Console.WriteLine($"{oflow1}\n{oflow2}");
         }
     }
 }
