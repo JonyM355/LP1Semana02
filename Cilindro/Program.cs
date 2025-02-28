@@ -10,7 +10,7 @@ namespace Cilindro
             Console.WriteLine("Digite uma altura de um cilindro:");
             double a = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite um raio para um cilindro:");
+            Console.WriteLine("Digite um raio do cilindro:");
             double r = double.Parse(Console.ReadLine());
 
             double pi = Math.PI;
