@@ -8,6 +8,8 @@ namespace ValoresEspeciais
     {
         private static void Main(string[] args)
         {
+            // Ex. 6
+
             byte b = byte.MaxValue;
             byte b1 = byte.MinValue;
 
@@ -62,6 +64,13 @@ namespace ValoresEspeciais
             Console.WriteLine($"{infpositive}");
             Console.WriteLine($"{infnegative}");
             Console.WriteLine($"{nan}");
+
+
+            // Ex. 7
+
+            uint ui2 = ushort.MaxValue;
+            Console.WriteLine((ushort)(ui2 + 1));
+
         }
     }
 }
